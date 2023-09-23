@@ -1,0 +1,165 @@
+.container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    background: rgb(21,14,40);
+    background: linear-gradient(90deg, rgba(21,14,40,1) 16%, rgba(21,14,40,1) 26%, rgba(21,14,40,1) 37%);
+}
+
+header>h2{
+    font-family: var(--font_1);
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+header>h2 span{
+    color: #d434fe;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+nav>ul>li{
+    font-family: var(--font_2);
+    color: #fff;
+    font-weight: 400;
+    transition: 2s ease-in-out;
+}
+
+nav>ul>li:hover{
+    color: #d434fe;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.register_btn{
+    margin-right: 40px;
+    padding: 8px;
+    width: 120px;
+    font-family: var(--font_2);
+    font-weight: 400;
+    background:linear-gradient(270deg, #903AFF 0%, #FE34B9 100%); 
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    flex-shrink: 0;
+    transition: 1s ease-in-out all;
+}
+
+.register_btn:hover{
+    background: #563aa1;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 600;
+}
+
+@media(max-width:665px){
+    .register_btn{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+}
+
+@media(min-width:664px){
+    .menu{
+        display: none;
+    }
+
+    .nav-toggle{
+        display: none;
+    }
+
+    .nav-menu{
+        display:none ;
+    }
+}
+
+.menu{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+
+}
+
+.nav-menu{
+    width: 100%;
+    background-color: #150e28;
+    border-radius: 8px;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    left:-100%;
+    transition: 850ms;
+}
+
+.nav-menu.active{
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-toggle{
+    float: right;
+    top: 20px;
+    right: 10px;
+    position: absolute;
+    font-size: 30px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    transition: 2s all ease-in-out ;
+}
+
+.nav-toggle:hover{
+    color: #903AFF;
+    font-size:35px ;
+
+}
+
+.nav-menu-items{
+    padding: 20px;
+    list-style: none;
+    height: 100px;
+}
+
+.nav-text {
+    margin: 40px 0;
+    height: 30px;
+    
+}
+
+.nav-text a{
+    text-decoration: none;
+    font-family: var(--font_5);
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    transition: 2s all ease-in-out;
+}
+
+.nav-text a:hover{
+    font-size:20px ;
+    color: #d434fe;
+}
+
+.sidebar_btn{
+    display: flex;
+    padding: 15px;
+    font-size: 18px;
+}
