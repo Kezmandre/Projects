@@ -3,7 +3,7 @@ import styles from "./Header.css"
 import {CgMenuRight} from "react-icons/cg"
 import{MdOutlineCancel} from "react-icons/md"
 import {sidebarData} from "../SidebarData"
-import {Link} from "react-router-dom"
+import {Link,NavLink} from "react-router-dom"
 
 const Header = () => {
 
@@ -20,13 +20,13 @@ const Header = () => {
         </header>
         <nav>
             <ul>
-                <li>Timeline</li>
+               <NavLink to="/"><li>Timeline</li></NavLink> 
                 <li>Overview</li>
                 <li>FAQs</li>
-                <li>Contact</li>
+               <NavLink to="/contact"><li>Contact</li></NavLink> 
             </ul>
         </nav>
-        <button className="register_btn">Register</button>
+       <Link to="/register"><button className="register_btn">Register</button></Link> 
       
     </div>
     <div>

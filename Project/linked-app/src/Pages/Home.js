@@ -1,8 +1,14 @@
 import React from 'react'
 
+
 const HomeScreen = () => {
   return (
-    <div>Home</div>
+    <div>
+       Home
+       <p>yes we can</p>
+    </div>
+     
+  
   )
 }
 

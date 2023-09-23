@@ -37,6 +37,20 @@ nav>ul>li{
     transition: 2s ease-in-out;
 }
 
+ nav ul a{
+    text-decoration: none;
+    font-family: var(--font_2);
+    color: #fff;
+    font-weight: 400;
+    transition: 2s ease-in-out;
+}
+
+nav ul a:hover{
+    color: #d434fe;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 nav>ul>li:hover{
     color: #d434fe;
     font-size: 20px;

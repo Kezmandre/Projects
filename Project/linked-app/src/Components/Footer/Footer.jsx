@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from "./Footer.module.css"
 
-const Footer = () => {
+const Footers = () => {
   return (
-    <Footer>
+    <div className={styles.footer_container}>
         <div className={styles.first_footer}>
         <h2>get<span>linked</span></h2>
         <p>Getlinked Tech Hackathon is a technology innovation program established by a group of organization
@@ -30,9 +30,22 @@ const Footer = () => {
                     <img src="https://res.cloudinary.com/di9r3toow/image/upload/v1695375306/img/ri_linkedin-fill_svms6z.svg" alt="" />
                 </span>
             </div>
+            <div className={styles.footer_contact}>
+                <p>Contact</p>
+                <div className="tel">
+                    <img src="https://res.cloudinary.com/di9r3toow/image/upload/v1695499499/55a4f88f-a445-489f-9904-1cd4df47ee14_p1jafk.png" alt="" />
+                    <p>+234 6707653444</p>
+                </div>
+                <div className={styles.address}>
+                    <p>27,Alara Street <br />Yaba 1000012 <br />Lagos State</p>
+                </div>
+            </div>
+            <div className={styles.copyright}>
+                <p>All right reserved. &copy; <span>getlinked Ltd.</span></p>
+            </div>
         </div>
-    </Footer>
+    </div>
   )
 }
 
-export default Footer
+export default Footers
