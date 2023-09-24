@@ -1,0 +1,136 @@
+.footer_container{
+    background-color: rgb(21,14,40);
+   
+}
+
+.footer_items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    
+}
+
+.first_footer h2{
+        font-family: var(--font_1);
+        font-weight: 600;
+        font-size: 24px;
+        color: #fff;
+}
+
+.first_footer h2>span{
+    color:#d434fe ;
+}
+
+.first_footer p{
+    color: #fff;
+    text-align: left;
+    padding: 10px 0 25px 0;
+    font-family: var(--font_2);
+    font-size: 12px
+}
+
+.first_footer a{
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--font_1);
+    font-size: 0.8rem;
+    gap: 10px;
+}
+
+.first_footer a>span{
+    color:#d434fe ;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.second_footer h6{
+    color: #d434fe;
+    font-family: var(--font_2);
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.second_footer ul li{
+    list-style: none;
+    padding-top: 5px;
+   
+}
+
+.second_footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-weight: var(--font_2);
+}
+
+.media_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.media_links p{
+    font-family: var(--font_2);
+    font-size: 12px;
+    color: #d434fe;
+}
+
+.links img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+.footer_contact>h6{
+    color: #d434fe;
+    font-family: var(--font_2);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+    gap: 10px;
+    font-family: var(--font_2);
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.tel img{
+    width: 15px;
+}
+
+.address{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 20px;
+    color: white;
+    gap: 20px;
+    font-family: var(--font_2);
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.address img{
+    width: 15px;
+}
+
+.copyright p {
+    text-align: center;
+    font-family: var(--font_2);
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
