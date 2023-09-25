@@ -12,6 +12,30 @@
     
 }
 
+@media(max-width:644px){
+    .footer_items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 50px;
+    }
+
+    .second_footer{
+        margin-top: 20px;
+    }
+
+
+    .footer_contact{
+        margin: 20px 0;
+    }
+    
+}
+
+.first_footer{
+    flex-basis: 33%;
+}
+
 .first_footer h2{
         font-family: var(--font_1);
         font-weight: 600;
@@ -28,7 +52,7 @@
     text-align: left;
     padding: 10px 0 25px 0;
     font-family: var(--font_2);
-    font-size: 12px
+    font-size: 0.8rem
 }
 
 .first_footer a{
@@ -45,6 +69,9 @@
     font-size: 20px;
     padding: 5px;
 }
+
+
+
 
 .second_footer h6{
     color: #d434fe;
@@ -91,7 +118,7 @@
     font-family: var(--font_2);
     font-size: 14px;
     font-weight: 600;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .tel{

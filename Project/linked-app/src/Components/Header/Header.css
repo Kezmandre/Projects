@@ -2,7 +2,7 @@
     width: 100%;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     position: relative;
     align-items: center;
@@ -22,11 +22,16 @@ header>h2 span{
     color: #d434fe;
 }
 
+nav{
+    margin-left: 30px;
+   
+}
+
 nav>ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     list-style: none;
 }
 
@@ -42,6 +47,7 @@ nav>ul>li{
     font-family: var(--font_2);
     color: #fff;
     font-weight: 400;
+   
     transition: 2s ease-in-out;
 }
 
@@ -78,7 +84,7 @@ nav>ul>li:hover{
     font-weight: 600;
 }
 
-@media(max-width:665px){
+@media(max-width:733px){
     .register_btn{
         display: none;
     }
@@ -88,7 +94,7 @@ nav>ul>li:hover{
     }
 }
 
-@media(min-width:664px){
+@media(min-width:733px){
     .menu{
         display: none;
     }
