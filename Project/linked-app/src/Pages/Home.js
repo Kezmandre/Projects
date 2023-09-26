@@ -1,11 +1,11 @@
 import React from 'react'
+import Hero from '../Components/Hero/Hero'
 
 
 const HomeScreen = () => {
   return (
     <div>
-       Home
-       <p>yes we can</p>
+       <Hero/>
     </div>
      
   

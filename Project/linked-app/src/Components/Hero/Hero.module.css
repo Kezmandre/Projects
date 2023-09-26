@@ -1,0 +1,145 @@
+.container{
+    background-color: rgb(21,14,40);
+    /* background: linear-gradient(94deg, rgba(21,14,40,0.9892916639311975) 14%, rgba(144,58,255,0.8884513277967437) 26%, rgba(21,14,40,1) 42%); */
+}
+
+.inner_container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gradient_img{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+}
+
+.gradient_img img{
+    width: 250px;
+    height: 200px;
+    color: #903aff;
+}
+
+.hero_title{
+    text-align: right;
+    padding-top: 20px;
+    position: relative;
+    /* margin-top: 20px; */
+}
+
+.hero_title_line{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.hero_title_line img{
+    width: 115px;
+}
+.hero_title p{
+    font-size: 16px;
+    font-family: var(--font_2);
+    font-style: italic;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+.hero{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero_header{
+    flex-basis: 48%;
+    text-align: center;
+    position: relative;
+}
+
+
+.hero_header_bulb{
+    position: absolute;
+    top: -10px;
+    right: 120px;
+}
+
+   
+
+.hero_header_bulb img{
+    width: 18px;
+}
+.hero_header h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--font_1);
+    line-height: normal;
+}
+
+.hero_header h1>span{
+    color: #d434fe;
+}
+
+.hero_header p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.2px;
+    font-family: var(--font_2);
+    color: #fff;
+}
+
+.hero_header button{
+    margin-top: 20px;
+    padding: 8px;
+    width: 120px;
+    font-family: var(--font_2);
+    font-weight: 400;
+    background:linear-gradient(270deg, #903AFF 0%, #FE34B9 100%); 
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    flex-shrink: 0;
+    transition: 1s ease-in-out all;
+}
+
+.hero_header button:hover{
+    background: #563aa1;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.hero_header .timer{
+    margin-top: 20px;
+}
+
+.hero_header .timer>span{
+    font-family: var(--font_6);
+    font-size: 48px;
+    line-height: 64px;
+    color: #fff;
+
+}
+
+.timer span>sub{
+    font-size: 12px;
+    font-family: var(--font_2);
+    color: white;
+}
+
+.hero_banner{
+    flex-basis: 48%;
+}
+
+.hero_img{
+    width: 100%;
+}
+
+.hero_img img{
+    width: 100%;
+}
