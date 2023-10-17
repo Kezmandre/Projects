@@ -130,6 +130,7 @@ nav>ul>li:hover{
     position: fixed;
     left:-100%;
     transition: 850ms;
+    z-index: 99;
 }
 
 .nav-menu.active{

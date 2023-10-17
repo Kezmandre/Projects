@@ -11,10 +11,12 @@ const Hero = () => {
         </div>
         <div className={styles.hero}>
             <div className={styles.hero_header}>
-                <h1>getLinked Tech <br />Hackathon <span>1.0</span> </h1>
+                <h1 >getLinked Tech <br />Hackathon <span>1.0</span></h1>
                 <div className={styles.hero_header_bulb}><img src="https://res.cloudinary.com/di9r3toow/image/upload/v1695692733/5864c218-214c-4257-928a-6a7d51f4c5fa_j0hkbt.png" alt="" /></div>
                 <p>Particpate in getkinked tech Hackathon 2023 stand a chance to win Big prize</p>
+                
                 <button>Register</button>
+    
                 <div className={styles.timer}>
                     <span>00<sub>H</sub></span>
                     <span>00<sub>M</sub></span>
@@ -27,6 +29,9 @@ const Hero = () => {
             <div className={styles.hero_banner}>
                 <div className={styles.hero_img}>
                     <img src="https://res.cloudinary.com/di9r3toow/image/upload/v1695375302/img/man-wearing-smart-glasses-touching-virtual-screen_1_b30t25.png" alt="" />
+                </div>
+                <div className={styles.hero_img_stars}>
+                    <img src="https://res-console.cloudinary.com/di9r3toow/thumbnails/v1/image/upload/v1695375301/aW1nL0ltYWdlXzFfZDJxOWty/grid_landscape" alt="" />
                 </div>
             </div>
         </div>
